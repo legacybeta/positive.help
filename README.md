@@ -1,7 +1,25 @@
+# Positive.help
+
+The purpose of the site is to share positive messages with people, and allow for people add their own messages.
+
+The new messages are submitted for review via a Typeform. This allows anyone and everyone to be able to suggest new messages. If you know how to use Github and want to add your own we are happy to take pull requests for new messages. The messages are in Markdown and are in the src/markdown-pages folder.  
+
+The site is hosted on Cloudflare Workers at the moment, which has been working well so far... 
+
+**Rules For New Messages**
+
+1. Be Positive and Helpful
+2. No duplicates but shorter or longer similar messages are allowed
+3. Change content rather than Routes
+4. If you change existing content on a Route, add a new post with the previous content
+5. Emojis are welcome, but try to keep them at the end of the message
 
 
+This site was built with Gatsby and Gatsby Starter Theme so some of their Readme info was retained to help people get it setup locally. 
 
-## 🚀 Quick start
+---
+
+## 🚀 Gatsby Quick start
 
 1.  **Start developing.**
 
@@ -18,20 +36,12 @@
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). 
 
-
-## Created With Gatsby
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
-
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
