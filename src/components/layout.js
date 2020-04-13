@@ -21,7 +21,13 @@ const Layout = ({ children }) => {
               }
           }
       }
-  `)
+  `);
+
+  // const sendbutton = (
+  //     <div><a className="sendButton typeform-share button" href="https://legacybeta.typeform.com/to/cK0Ztb" data-mode="popup"
+  //             target="_blank">Send Us Some Positivity </a>
+  //         </div>
+  // );
 
   return (
     <>

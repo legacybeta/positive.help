@@ -23,6 +23,7 @@ const IndexPage = ({
       <SEO title="positive.help"/>
       <h1 className="font-sans text-black">Just Positive Vibes</h1>
       <div>{Posts}</div>
+
     </Layout>
   )
 
