@@ -2,7 +2,7 @@
 
 The purpose of the site is to share positive messages with people, and allow for people add their own messages.
 
-The easiest way for people to add new messages is to submit them for review via Typeform. [Fill out this form.](https://legacybeta.typeform.com/to/cK0Ztb)
+The easiest way for people to add new messages is to submit them for review via Typeform. <a href="https://legacybeta.typeform.com/to/cK0Ztb" target="_blank">Fill out this form.</a>
 
 This allows anyone and everyone to be able to suggest new messages. If you know how to use Github and want to add your own we are happy to take pull requests for new messages. The messages are in Markdown and are in the src/markdown-pages folder.  
 
