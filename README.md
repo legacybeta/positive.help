@@ -2,7 +2,9 @@
 
 The purpose of the site is to share positive messages with people, and allow for people add their own messages.
 
-The new messages are submitted for review via a Typeform. This allows anyone and everyone to be able to suggest new messages. If you know how to use Github and want to add your own we are happy to take pull requests for new messages. The messages are in Markdown and are in the src/markdown-pages folder.  
+The easiest way for people to add new messages is to submit them for review via Typeform. [Fill out this form.](https://legacybeta.typeform.com/to/cK0Ztb)
+
+This allows anyone and everyone to be able to suggest new messages. If you know how to use Github and want to add your own we are happy to take pull requests for new messages. The messages are in Markdown and are in the src/markdown-pages folder.  
 
 The site is hosted on Cloudflare Workers at the moment, which has been working well so far... 
 
