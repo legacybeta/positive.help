@@ -41,8 +41,9 @@ const Layout = ({ children }) => {
       >
         <main className="mainContent">{children}</main>
 
-        <section>
-            <div className="mt-1 mr-1 p-1 fixed pin-r pin-t border border-solid border-teal-darkest rounded">
+        <section className="mt-1 mr-1 fixed pin-r pin-t">
+
+            <div className="mr-1 float-right p-1 border border-solid border-teal-darkest rounded">
             <a className="text-xs text-teal-darkest no-underline" href="https://github.com/legacybeta/positive.help" target="_blank" rel="noopener noreferrer" >
                 <span className="align-middle">On GitHub </span>
                 <svg version="1.1" width="16" height="16" viewBox="0 0 16 16" className="align-middle"
@@ -52,6 +53,11 @@ const Layout = ({ children }) => {
                 </svg>
             </a>
             </div>
+
+            <div className="mr-1 float-right p-1 border border-solid border-teal-darkest rounded"><a className="text-xs text-teal-darkest no-underline" href="https://legacybeta.typeform.com/to/cK0Ztb" data-mode="popup"
+                                                                                                     target="_blank" rel="noopener noreferrer" >Add Positivity </a>
+            </div>
+
         </section>
       </div>
     </>
