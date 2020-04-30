@@ -8,7 +8,7 @@ This allows anyone and everyone to be able to suggest new messages. If you know 
 
 The site is hosted on Cloudflare Workers at the moment, which has been working well so far... 
 
-If you are adding messages in languages that require UTF8 characters, you will need to md5 the message to use as the Route. Something with Cloudflare doesn't allow us to have UTF8 Routes. Seaching DuckDuckGo is an easy way to generate the hash. "md5 message".
+If you are adding messages in languages that require UTF8 characters, you will need to md5 the message to use as the Route. Something with Cloudflare doesn't allow us to have UTF8 Routes. Searching DuckDuckGo is an easy way to generate the hash. "md5 message".
 
 **Rules For New Messages**
 
