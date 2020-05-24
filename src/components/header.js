@@ -11,24 +11,12 @@ const Header = ({ siteTitle }) => (
         padding: `0.45rem`,
       }}
     >
-      <h1
-        style={{
-          margin: 0,
-          fontSize: `small`,
-        }}
-      >
-        <Link
-          to="/"
-          style={{
-            color: `#3D3D3D`,
-            textDecoration: `none`,
-          }}
-        >
+      <h1 className="text-sm m-0">
+        <Link to="/" className="no-underline text-black font-bold">
           {siteTitle}
         </Link>
       </h1>
     </div>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet"/>
 
 
   </header>
