@@ -1,3 +1,3 @@
 module.exports = () => ({
-  plugins: [require("tailwindcss.config.js")],
+  plugins: [require("tailwindcss")],
 })
