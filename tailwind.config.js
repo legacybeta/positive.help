@@ -7,7 +7,7 @@ module.exports = {
   prefix: '',
   important: false,
   separator: ':',
-  purge: [],
+  purge: false,
   theme: {
     colors: {
 
