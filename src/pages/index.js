@@ -21,7 +21,7 @@ const IndexPage = ({
         <body className="bg-green-light"/>
       </Helmet>
       <SEO title="positive.help"/>
-      <h1 className="font-sans text-black">Just Positive Vibes</h1>
+      <h1 className="text-4xl font-bold font-sans text-black">Just Positive Vibes</h1>
       <div>{Posts}</div>
 
     </Layout>

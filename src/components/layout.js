@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
 
         <section className="mt-1 mr-1 fixed right-0 top-0">
 
-            <div className="block mr-1 float-right pb-1 px-1 border border-solid border-teal-darkest rounded leading-tight">
+            <div className="block mr-1 float-right pb-1 px-1 border border-solid border-teal-darkest rounded leading-normal">
             <a className="text-xs text-teal-darkest no-underline" href="https://github.com/legacybeta/positive.help" target="_blank" rel="noopener noreferrer" >
                 <span className="content-center">On GitHub </span>
                 <svg version="1.1" width="16" height="16" viewBox="0 0 16 16" className="inline"
@@ -54,7 +54,7 @@ const Layout = ({ children }) => {
             </a>
             </div>
 
-            <div className="block mr-1 float-right pb-1 px-1 border border-solid border-teal-darkest rounded leading-tight">
+            <div className="block mr-1 float-right pb-1 px-1 border border-solid border-teal-darkest rounded leading-normal">
               <a className="align-middle text-xs text-teal-darkest no-underline" href="https://legacybeta.typeform.com/to/cK0Ztb" data-mode="popup"
                                                                                                      target="_blank" rel="noopener noreferrer" >Add Positivity </a>
             </div>

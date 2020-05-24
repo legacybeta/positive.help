@@ -1,6 +1,7 @@
+//https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 
-// let defaultConfig = require('tailwindcss/defaultConfig')()
-
+// let defaultConfig = require('tailwindcss/defaultConfig')
+// const { colors } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   prefix: '',
@@ -9,9 +10,8 @@ module.exports = {
   purge: [],
   theme: {
     colors: {
-      'transparent': 'transparent',
 
-      'black': '#22292f',
+      black: '#22292f',
       'grey-darkest': '#3d4852',
       'grey-darker': '#606f7b',
       'grey-dark': '#8795a1',
@@ -19,7 +19,7 @@ module.exports = {
       'grey-light': '#dae1e7',
       'grey-lighter': '#f1f5f8',
       'grey-lightest': '#f8fafc',
-      'white': '#ffffff',
+      white: '#ffffff',
 
       'red-darkest': '#3b0d0c',
       'red-darker': '#621b18',
@@ -118,7 +118,11 @@ module.exports = {
       default: theme('colors.grey-light'),
       ...theme('colors'),
     }),
-    extend: {},
+    extend: {
+      // colors: {
+      //   black: colors.black,
+      // },
+    },
     fill: {
       'current': 'currentColor',
     },
@@ -389,4 +393,7 @@ module.exports = {
     zIndex: ['responsive'],
   },
   plugins: [],
+  corePlugins: {
+    // textColor: false,
+  }
 }
