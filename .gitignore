@@ -1,5 +1,6 @@
 wrangler.toml
 .idea/
+package-lock.json
 
 # Logs
 logs

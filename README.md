@@ -19,7 +19,7 @@ If you are adding messages in languages that require UTF8 characters, you will n
 5. Emojis are welcome, but try to keep them at the end of the message
 
 
-This site was built with Gatsby and Gatsby Starter Theme so some of their Readme info was retained to help people get it setup locally. 
+This site was built with (Gatsby)[https://www.gatsbyjs.org/docs/quick-start/] and Gatsby Starter Theme so some of their Readme info was retained to help people get it setup locally. 
 
 ---
 
@@ -27,12 +27,13 @@ This site was built with Gatsby and Gatsby Starter Theme so some of their Readme
 
 1.  **Start developing.**
 
-    We recommend using (pnpm)[https://pnpm.js.org/en/installation] for this project as it will be much faster! Navigate into your new site’s directory and start it up.
+    We are using (pnpm)[https://pnpm.js.org/en/installation] for this project because it is much faster! Navigate into your new site’s directory and start it up.
 
-### Install pnpm
+### Install pnpm and gatsby
 
     ```shell
     npm install -g pnpm
+    pnpm install -g gatsby-cli
     ```
 
 ### Install node_modules and Start gatsby
@@ -51,9 +52,7 @@ This site was built with Gatsby and Gatsby Starter Theme so some of their Readme
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). 
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/docs/). 
 
 <p align="center">
   <a href="https://www.gatsbyjs.org">
