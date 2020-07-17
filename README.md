@@ -27,10 +27,21 @@ This site was built with Gatsby and Gatsby Starter Theme so some of their Readme
 
 1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    We recommend using (pnpm)[https://pnpm.js.org/en/installation] for this project as it will be much faster! Navigate into your new site’s directory and start it up.
+
+### Install pnpm
+
+    ```shell
+    npm install -g pnpm
+    ```
+
+### Install node_modules and Start gatsby
 
     ```shell
     cd positivehelp/
+
+    pnpm install
+
     gatsby develop
     ```
 

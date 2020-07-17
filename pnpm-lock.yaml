@@ -1,6 +1,7 @@
 dependencies:
   gatsby: 2.24.2_0089f222933fa16468337ca8807cd9ec
   gatsby-image: 2.4.13
+  gatsby-legacy-polyfills: 0.0.2
   gatsby-plugin-catch-links: 2.3.11_gatsby@2.24.2
   gatsby-plugin-manifest: 2.4.18_gatsby@2.24.2
   gatsby-plugin-offline: 3.2.17_gatsby@2.24.2
@@ -15067,6 +15068,7 @@ specifiers:
   acorn: ^6.4.1
   gatsby: ^2.24.2
   gatsby-image: ^2.4.13
+  gatsby-legacy-polyfills: ^0.0.2
   gatsby-plugin-catch-links: ^2.3.11
   gatsby-plugin-manifest: ^2.4.18
   gatsby-plugin-offline: ^3.2.17
