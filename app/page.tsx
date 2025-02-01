@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button"
 import { PlusCircle } from "lucide-react"
+import { getMessages } from "./messages"
 
-export default function Home() {
+export default async function Home() {
+  const messages = await getMessages();
+  
   return (
     <div className="min-h-screen bg-green-200">
       <nav className="flex items-center justify-between p-4 bg-green-300">
@@ -25,32 +28,4 @@ export default function Home() {
     </div>
   )
 }
-
-const messages = [
-  {
-    id: 1,
-    text: "It doesn't take forever to Change Your Forever",
-    date: "July 15, 2020",
-  },
-  {
-    id: 2,
-    text: "Stay strong and persistent.",
-    date: "June 29, 2020",
-  },
-  {
-    id: 3,
-    text: "I Was Blind, Now I Can See, You Make A Believer Out of Me, I'm Moving On Up!",
-    date: "May 27, 2020",
-  },
-  {
-    id: 4,
-    text: "The Breath of Life Is Shared Between All Humans, Creatures, and Plants",
-    date: "May 26, 2020",
-  },
-  {
-    id: 5,
-    text: "Keep Looking Up... That's The Secret of Life.",
-    date: "April 29, 2020",
-  },
-]
 
