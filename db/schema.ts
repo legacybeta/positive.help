@@ -3,10 +3,10 @@ import { sqliteTable, AnySQLiteColumn, integer, text, numeric } from "drizzle-or
 
 export const messages = sqliteTable("messages", {
 	id: integer().primaryKey(),
-	msg: text(),
-	uuid: text(),
-	slug: text(),
-	date: numeric(),
+	msg: text('msg'),
+	hash: text('hash'),
+	slug: text('slug'),
+	date: numeric('date'),
 });
 
 
