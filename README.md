@@ -1,61 +1,36 @@
-# Positive.help
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-The purpose of the site is to share positive messages with people, and allow for people add their own messages.
+## Getting Started
 
-The easiest way for people to add new messages is to submit them for review via Typeform. <a href="https://legacybeta.typeform.com/to/cK0Ztb" target="_blank">Fill out this form.</a>
+First, run the development server:
 
-This allows anyone and everyone to be able to suggest new messages. If you know how to use Github and want to add your own we are happy to take pull requests for new messages. The messages are in Markdown and are in the src/markdown-pages folder.  
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-The site is hosted on Cloudflare Workers at the moment, which has been working well so far... 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-If you are adding messages in languages that require UTF8 characters, you will need to md5 the message to use as the Route. Something with Cloudflare doesn't allow us to have UTF8 Routes. Searching DuckDuckGo is an easy way to generate the hash. "md5 message".
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-**Rules For New Messages**
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-1. Be Positive and Helpful
-2. No duplicates but shorter or longer, similar messages are allowed
-3. Change content rather than Routes
-4. If you change existing content on a Route, add a new post with the previous content
-5. Emojis are welcome, but try to keep them at the end of the message
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
-This site was built with (Gatsby)[https://www.gatsbyjs.org/docs/quick-start/] and Gatsby Starter Theme so some of their Readme info was retained to help people get it setup locally. 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 🚀 Gatsby Quick start
+## Deploy on Vercel
 
-1.  **Start developing.**
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-    We are using (pnpm)[https://pnpm.js.org/en/installation] for this project because it is much faster! Navigate into your new site’s directory and start it up.
-
-### Install pnpm and gatsby
-
-    ```shell
-    npm install -g pnpm
-    pnpm install -g gatsby-cli
-    ```
-
-### Install node_modules and Start gatsby
-
-    ```shell
-    cd positivehelp/
-
-    pnpm install
-
-    gatsby develop
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
-Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/docs/). 
-
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

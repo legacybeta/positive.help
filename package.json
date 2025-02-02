@@ -1,51 +1,37 @@
 {
-  "name": "positive-help-theme",
-  "private": true,
-  "description": "A simple starter",
+  "name": "positivehelp",
   "version": "0.1.0",
-  "author": "Logan L <logan@llbbl.com>",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate:sqlite --schema=./src/db/schema.ts --out=./drizzle/migrations"
+  },
   "dependencies": {
-    "gatsby": "^2.24.2",
-    "gatsby-image": "^2.4.13",
-    "gatsby-legacy-polyfills": "^0.0.2",
-    "gatsby-plugin-catch-links": "^2.3.11",
-    "gatsby-plugin-manifest": "^2.4.18",
-    "gatsby-plugin-offline": "^3.2.17",
-    "gatsby-plugin-postcss": "^2.3.11",
-    "gatsby-plugin-react-helmet": "^3.3.10",
-    "gatsby-plugin-sharp": "^2.6.19",
-    "gatsby-source-filesystem": "^2.3.19",
-    "gatsby-transformer-remark": "^2.8.25",
-    "gatsby-transformer-sharp": "^2.5.11",
-    "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1"
+    "@clerk/nextjs": "^6.10.6",
+    "@libsql/client": "^0.14.0",
+    "@radix-ui/react-slot": "^1.1.1",
+    "better-sqlite3": "^11.8.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.39.1",
+    "lucide-react": "^0.344.0",
+    "next": "15.1.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "acorn": "^6.4.1",
-    "prettier": "^1.19.1",
-    "tailwindcss": "^1.4.6",
-    "typescript": "^3.9.6"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.30.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
