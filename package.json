@@ -10,7 +10,7 @@
     "db:generate": "drizzle-kit generate:sqlite --schema=./src/db/schema.ts --out=./drizzle/migrations"
   },
   "dependencies": {
-    "@auth/drizzle-adapter": "^1.7.4",
+    "@clerk/nextjs": "^6.10.6",
     "@libsql/client": "^0.14.0",
     "@radix-ui/react-slot": "^1.1.1",
     "better-sqlite3": "^11.8.1",
@@ -19,7 +19,6 @@
     "drizzle-orm": "^0.39.1",
     "lucide-react": "^0.344.0",
     "next": "15.1.6",
-    "next-auth": "^4.24.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwind-merge": "^3.0.1",

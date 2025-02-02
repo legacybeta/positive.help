@@ -20,11 +20,6 @@ export default async function MessagePage({ params }: { params: { slug: Promise<
 
     return (
       <div className="min-h-screen bg-green-200">
-        <nav className="flex items-center justify-between p-4 bg-green-300">
-          <Link href="/" className="text-xl font-semibold hover:text-green-800">
-            positive.help
-          </Link>
-        </nav>
       <main className="relative min-h-[calc(100vh-4rem)] p-6 flex items-center justify-center">
         <div className="max-w-[90%]">
           <h1 className="text-[8vw] leading-tight font-medium text-center">{message.text}</h1>
