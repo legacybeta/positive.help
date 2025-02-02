@@ -1,9 +1,11 @@
 import type { Message } from "@/app/api/messages/[slug]/route";
 import Link from "next/link";
 
-export default async function MessagePage({ params }: { params: { slug: string } }) {
+export default async function MessagePage({ params }: { params: { slug: Promise<string> } }) {
+  const { slug } = await params;
+  
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/api/messages/${params.slug}`, {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/api/messages/${slug}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

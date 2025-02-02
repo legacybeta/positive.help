@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import client from '@/lib/db';
-import { Row } from '@libsql/client';
+
 
 // Export the Message interface
 export interface Message {
@@ -10,14 +10,16 @@ export interface Message {
   url: string;
 }
 
-export async function GET(
-  request: Request,
-  { params }: { params: { slug: string } }
-) {
+export async function GET(request: Request) {
   try {
+    const slug = request.url.split('/').pop();
+    if (!slug) {
+      return NextResponse.json({ error: 'Invalid slug' }, { status: 400 });
+    }
+    
     const result = await client.execute({
       sql: 'SELECT id, msg as text, slug as url, date FROM messages WHERE slug = ?',
-      args: [params.slug]
+      args: [slug]
     });
     
     if (!result.rows.length) {
