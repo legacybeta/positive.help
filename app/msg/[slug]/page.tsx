@@ -23,12 +23,12 @@ export default async function MessagePage({ params }: { params: { slug: string }
             positive.help
           </Link>
         </nav>
-        <main className="container mx-auto p-6">
-          <div className="bg-white rounded-lg p-6 shadow-sm">
-            <p className="text-xl mb-4">{message.text}</p>
-            <span className="text-sm text-gray-600">({message.date})</span>
-          </div>
-        </main>
+      <main className="relative min-h-[calc(100vh-4rem)] p-6 flex items-center justify-center">
+        <div className="max-w-[90%]">
+          <h1 className="text-[5vw] leading-tight font-medium text-center">{message.text}</h1>
+        </div>
+        <span className="absolute bottom-6 left-6 text-sm text-gray-600">{message.date}</span>
+      </main>
       </div>
     );
   } catch (error) {
