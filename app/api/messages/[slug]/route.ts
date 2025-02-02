@@ -1,7 +1,14 @@
 import { NextResponse } from 'next/server';
 import client from '@/lib/db';
 import { Row } from '@libsql/client';
-import type { Message } from '../route';
+
+// Export the Message interface
+export interface Message {
+  id: number;
+  text: string;
+  date: string;
+  url: string;
+}
 
 export async function GET(
   request: Request,
