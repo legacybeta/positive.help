@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { PlusCircle } from "lucide-react"
-import { getMessages } from "./messages"
+import { getMessages } from "./_components/messages"
 
 export default async function Home() {
   const messages = await getMessages();
